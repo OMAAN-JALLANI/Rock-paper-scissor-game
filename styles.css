@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("mountain.avif");
+    background-repeat: none;
+    background-size: cover;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    height: 57px;
+
+}
+
+#btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.rock{
+    height: 125px;
+    width: 125px;
+    border: none;
+    border-radius: 50%;
+    background-image: url("rock.png");
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 5px;
+}
+
+
+.rock:hover{
+    border:2px solid  black;
+}
+
+.paper{
+    height: 125px;
+    width: 125px;
+    border: none;
+    border-radius: 50%;
+    background-image: url("paper.png");
+    background-size: cover;
+    background-repeat: none;
+    margin-right: 5px;
+}
+.paper:hover{
+    border:2px solid  black;
+}
+.scissor{
+    height: 125px;
+    width: 125px;
+    border: none;
+    border-radius: 50%;
+    background-image: url("scissors.png");
+    background-size: cover;
+    background-repeat: none;
+
+}
+.scissor:hover{
+    border:2px solid  black;
+}
+#counter{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.user-count{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 90px;
+
+}
+
+.comp-count{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 90px;
+
+}
+
+#last-box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+
+}
+
+.you{
+    height: 28px;
+    width: 100px;  
+    background-color: rgb(135, 135, 179);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+
+
+}
+
+.computer{
+    height: 28px;
+    width: 100px;
+    background-color:rgb(135, 135, 179);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#last-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+
+    color: black;
+    font-size: 25px;
+    background-color: tomato;
+    height: 50px;
+    width: 260px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+    
