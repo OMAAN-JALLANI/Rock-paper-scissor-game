@@ -2,12 +2,7 @@
     margin: 0px;
     padding: 0px;    
 }
- body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    overflow: hidden;  
-    position: relative; 
-}
+ 
 iframe{
     position: fixed; top: 0; left: 0;
     z-index: -1;
@@ -108,8 +103,7 @@ p3:hover{
     border: none;
     border-radius: 50%;
     background-image: url("paper.jpg");
-    background-size: cover; 
-    margin-right: 5px;
+    background-size: cover;  
     transition: box-shadow 0.3s ease-in-out;  
     margin-left: 45px;
     margin-right: 45px;
