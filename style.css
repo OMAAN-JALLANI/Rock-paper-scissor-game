@@ -230,7 +230,7 @@ font-family:   sans-serif;
     align-items: center;
     border-radius: 12px;
 }
-
+ 
 /*  ---------------------------------  */
 
  
@@ -307,4 +307,63 @@ font-family:   sans-serif;
 
  
 
- 
+ /* 🌐 Mobile View Fixes */
+@media (max-width: 768px) {
+
+  /* Rock Paper Scissors Buttons */
+  #btn-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .rock, .paper, .scissor {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Score Numbers */
+  .user-count, .comp-count {
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Last Message Box */
+  .msg {
+    width: 90%;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 30px;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+
+  /* About Section */
+  .about_text {
+    width: 90%;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  /* Contact Form */
+  .form-box {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #name1, #email1, #message1 {
+    width: 90%;
+  }
+
+  #submit {
+    width: 90%;
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+}
