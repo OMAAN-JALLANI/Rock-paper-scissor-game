@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <iframe 
+  src="https://skybox.blockadelabs.com/e/b04be6ee7c8a7a05c2da12534b6938e6" 
+  width="100%" 
+  height="100%" 
+  style="border: none; position: fixed; top: 0; left: 0; z-index: -1;" 
+  allow="fullscreen">
+</iframe>
+
+
+    <div class="tab" >
+        <button id="navb" class="active" onclick="openPage('home', this)">Home</button>
+        <button id="navb" onclick="openPage('about', this)">About</button>
+        <button id="navb" onclick="openPage('contact', this)">Contact  me</button>
+        
+    </div>
+
+    <div id="home" class="tabcontent" style="display:block;">
+        <div class="h1">
+            <p>
+                <h1> <p1>Rock</p1> |<p2> Paper</p2> |<p3> Scissors</p3></h1>
+            </p>
+        </div>
+        <div id="btn-container">
+            <button class="rock" id="choice"></button>
+            <button class="paper" id="choice"></button>
+            <button class="scissor" id="choice"></button>
+        </div>
+
+        <div id="counter">
+            <div class="user-count" id="usr">0</div>
+            <div class="comp-count" id="com">0</div>
+        </div>
+
+        <div id="last-box">
+            <div class="you" id="usr">YOU</div>
+            <div class="computer" id="com">Computer</div>
+        </div>
+        <div id="last-msg">
+            <p class="msg">Select any one to Start</p>
+        </div>
+    </div>
+
+    <div id="about" class="tabcontent">
+        <h3 style="display: flex; align-items: center; justify-content: center; color: white;">ABOUT GAME</h3>
+        <section id="about" style="display: flex; align-items: center; justify-content: center;">
+            <p class="about_text">Two Player Games is an Estonian startup web portal initiative of RHM Interactive OÜ established in 2008 to gather up games freely offering multiplayer support with HTML5 and Flash technologies. Our site is the first and most comprehensive 2-person game site in the world. Two Player Games which wins recognition of its visitors for its unique content, design, and games keeps and continues its quality level. <br>
+                <br>
+                The professional team of Two Player Games filters the contents that may have negative effects on the children's conscience and psychological development from the internet sources for the site users and follows a sensitive policy on this issue. Therefore, the contents in which the elements of violence, blood, sexuality, politics, and fear come to the forefront are not kept in our portal. In addition to content control. <br> <br> 
+              
+            </p>
+          </section >
+    </div>
+   
+    <div id="contact" class="tabcontent">
+        <section id="contact" class="py-5">
+                      <div class="form-box">
+                        
+                          <form   action="https://formspree.io/f/xjkkpngl" method="POST">
+                            <h2>Contact Us:</h2>
+                            <label for="name"><b>Name:</b></label><br>
+                            <input type="text" id="name1" name="name" required><br><br>
+                             <label for="email"><b>Email:</b></label><br>
+                            <input type="email" id="email1" name="email" required><br><br>
+                            <label for="message"><b>Message:</b></label><br>
+                            <textarea id="message1" name="message" rows="2" cols="61" required></textarea><br><br>
+                            <button id="submit" type="submit">Submit</button>
+                        </form> 
+                      </div>           
+           
+        </section>
+    </div>
+
+     
+<script src="java.js"></script>
+</body>
+
+</html>
